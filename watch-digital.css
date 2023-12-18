@@ -1,0 +1,70 @@
+.container{
+    height: 100vh;
+}
+.column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.panel{
+    background-color: rgb(224, 236, 247);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ring{
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+    border: 10px solid rgb(224, 236, 247);
+    border-radius: 100%;
+    background-color: rgb(224, 236, 247);
+    background-image: linear-gradient(to right, pink, blue);
+}
+.circle{
+    background-color: rgb(224, 236, 247);
+    height: 310px;
+    border: 10px solid rgb(224, 236, 247);
+    border-radius: 100%;
+    margin-top: 10px;
+    width: 310px;
+    margin-left: 10px;
+}
+.pause{
+    background-image: linear-gradient(to right, rgb(163, 215, 245), rgb(30, 129, 243));
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgb(224, 236, 247);
+    border-radius: 100%;
+    margin-left: 40px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 15px rgb(156, 154, 154);
+}
+.start{
+    background-image: linear-gradient(to right, rgb(163, 215, 245), rgb(30, 129, 243));
+    height: 70px;
+    width: 120px;
+    border: 1px solid rgb(224, 236, 247);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 15px rgb(156, 154, 154);
+}
+.reset{
+    background-image: linear-gradient(to right, rgb(163, 215, 245), rgb(30, 129, 243));
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgb(224, 236, 247);
+    border-radius: 100%;
+    margin-left: 40px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 15px rgb(156, 154, 154);
+}
+.parts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+p{
+    margin-top: 115px;
+    font-size: 70px;
+    margin-left: 28px;
+}
